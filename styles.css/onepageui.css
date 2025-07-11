@@ -1,0 +1,46 @@
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Nav styles*/
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-title-logo{
+    font-weight: 900;
+    font-size: 34px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+
+
+.btn-primary{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+}
+
