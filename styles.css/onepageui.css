@@ -77,6 +77,8 @@ nav li a{
 
 /*main area*/
 
+
+
 .main{
     display: flex;
     justify-content: space-between;
@@ -104,4 +106,42 @@ nav li a{
 
 .first-img{
     border-radius: 48px;
+}
+
+/*2nd main section*/
+
+.main-section{
+    max-width: 1140px;
+    border-radius: 24px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 25px;
+    margin-top: 100px;
+    
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+}
+
+.secondary-bg{
+    background-color: #E5E7FF;
+
+}
+
+.item{
+    display: flex; 
+    justify-content: space-around; 
+}
+
+.item-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+}
+
+.item-description{
+    color: #727380;
 }
