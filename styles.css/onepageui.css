@@ -6,26 +6,45 @@
 }
 
 
+
+
+
 .main-background-clr{
     background-color: #F5F8FF;
+
+}
+
+*{
+margin:0;
+Padding:0;
 }
 
 /*Nav styles*/
+
+.header{
+    background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;  
+}
+
 nav{
     display: flex;
     align-items:center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0;
 }
 
 nav ul{
     display: flex;
     align-items: center;
+    padding: 50px;
 }
 
 .nav-title-logo{
     font-weight: 900;
     font-size: 34px;
+    padding-left: 75px ;
 }
 
 nav ul li{
@@ -46,7 +65,15 @@ nav li a{
     font-size: 16px;
     padding: 12px 36px;
     border-radius: 10px;
-    border: none;
+    border: none;   
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
+    
+  
+    
 }
 
 /*hero area*/
@@ -66,6 +93,11 @@ nav li a{
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+    margin-top: 50px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .center-container{
@@ -74,12 +106,6 @@ nav li a{
     align-items: center;
 }
 
-.header{
-    background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
-    height: 580px;
-   
-    
-}
 
 /*main area*/
 
@@ -87,6 +113,7 @@ nav li a{
 
 .main{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin: 116px 141px;
 }
@@ -94,10 +121,12 @@ nav li a{
     font-weight: bold;
     font-size: 42px;
     color: #252432;
+    margin: 10px;
 }
 
 .main-description{
     color: #252432;
+    margin: 10px;
 }
 
 .btn-primary-3{
@@ -108,6 +137,11 @@ nav li a{
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+    margin: 10px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .first-img{
@@ -146,6 +180,10 @@ nav li a{
     font-weight: bold;
     font-size: 80px;
     color: #4E47FF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .item-description{
@@ -205,7 +243,8 @@ nav li a{
 
 .focus-description{
     text-align: center;
-    color: #E6E6E6;
+    color: #918f8f;
+    padding: 20px 20px;
 }
 
 .forth-main-img{
@@ -227,5 +266,83 @@ nav li a{
     border: none;
     display: block;
     margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;   
+}
+
+/*5th main section*/
+
+.last-main-title{
+    font-weight: bold;
+    font-size: 94px;
+}
+
+form label{
+    display:block;
+    display: flex;
+    margin-top: 19px;
+    border-radius: 10px;
+    border: none;
+}
+
+.last-main-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 150px;
+}
+
+.btn-primary-5{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/*footer*/
+
+
+
+
+
+.footer-title{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+}
+
+.footer-description{
+    color: #8987A1;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.footer-ul{
     
+    color:#8987A1 ;
+    text-align: center;
+    margin: 15px;
+     
+    
+    
+}
+
+.footer-background-clr{
+    background-color: #FFFFFF;
+    padding: 50px 50px;
+}
+
+.footer-li{
+    list-style: none;
 }
