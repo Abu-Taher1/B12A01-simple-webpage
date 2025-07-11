@@ -69,11 +69,11 @@ nav li a{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
-    font-style: normal;
+    font-style: normal;   
+}
 
-    
-  
-    
+.btn-primary:hover{
+    background-color: #dfdf43;
 }
 
 /*hero area*/
@@ -83,6 +83,10 @@ nav li a{
     font-weight:bold;
     font-size: 65px;
     text-align: center;
+}
+
+.btn-primary-2:hover{
+    background-color: #dfdf43;
 }
 
 .btn-primary-2{
@@ -128,6 +132,12 @@ nav li a{
     color: #252432;
     margin: 10px;
 }
+
+.btn-primary-3:hover{
+    background-color: #dfdf43;
+}
+
+
 
 .btn-primary-3{
      background-color: #4E47FF;
@@ -256,6 +266,13 @@ nav li a{
 
 }
 
+.btn-primary-4:hover{
+    background-color: #dfdf43;
+}
+
+
+
+
 .btn-primary-4{
      background-color: #4E47FF;
     color: #FFFFFF;
@@ -293,6 +310,12 @@ form label{
     justify-content: space-between;
     padding: 150px 150px;
 }
+
+.btn-primary-5:hover{
+    background-color: #dfdf43;
+}
+
+
 
 .btn-primary-5{
     background-color: #4E47FF;
