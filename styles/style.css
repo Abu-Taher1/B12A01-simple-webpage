@@ -1,9 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 /*font-family*/
 
@@ -11,50 +10,92 @@
   font-family: "Raleway", sans-serif;
 }
 
+.shared-img {
+  background-image: url(../Assets/Hero-bg.png);
+}
 
 /*navigation*/
 .nav {
-    border: 1px solid rgb(255, 0, 0);
-    display: flex;
+  border: 1px solid rgb(255, 0, 0);
+  display: flex;
 
-    width: 1140px;
-    height: 150px;
+  width: 1140px;
+  height: 150px;
 
-    justify-content: space-between;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
 
-    margin: auto;
-
+  margin: auto;
 }
 
 .nav-logo {
-    text-decoration: none;
+  text-decoration: none;
 
-    font-size: 35px;
-    font-weight: 900;
+  font-size: 35px;
+  font-weight: 900;
 
-    color: #4E47FF;
+  color: #4e47ff;
 }
 
 .nav-btn {
-    font-size: 16px;
-    font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
 
-    background-color: #4E47FF;
-    color: white;
+  background-color: #4e47ff;
+  color: white;
 
-    border: none;
-    border-radius: 8px;
+  border: none;
+  border-radius: 8px;
 
-    padding: 12px 32px;
+  padding: 12px 32px;
 
-    cursor: pointer;  
+  cursor: pointer;
 }
 
 .nav-btn:hover {
-    background-color: #3B37B1;
+  background-color: #3b37b1;
 }
 
+/*hero section*/
+.hero {
+  border: 1px solid black;
 
+  height: 550px;
+}
 
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+  gap: 40px;
+}
+
+.hero-title {
+  font-size: 65px;
+  font-weight: bold;
+  color: #252432;
+
+  text-align: center;
+
+  margin-top: 160px;
+}
+
+.hero-btn {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #4e47ff;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  padding: 12px 36px;
+
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: #3b37b1;
+}
