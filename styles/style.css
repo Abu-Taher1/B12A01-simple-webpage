@@ -4,11 +4,19 @@
   box-sizing: border-box;
 }
 
-/*font-family*/
+/*primary font*/
 
 .primary-font {
   font-family: "Raleway", sans-serif;
 }
+
+/*secondary font*/
+.secondary-font {
+  font-family: "Inter", sans-serif;
+}
+
+
+
 
 .shared-img {
   background-image: url(../Assets/Hero-bg.png);
@@ -98,4 +106,154 @@
 
 .hero-btn:hover {
   background-color: #3b37b1;
+}
+
+
+/*main-action part*/
+.action-part {
+  display: flex;
+
+  width: 1140px;
+
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+
+  gap: 220px;
+
+  
+
+  margin-top: 120px;
+}
+  
+
+.action-content-title {
+  font-size: 42px;
+  font-weight: bold;
+
+  color: #252432;
+}
+
+.action-content-description {
+  font-size: 24px;
+  font-weight: 400;
+
+  color: #252432;
+
+  margin: 24px 0;
+}
+
+.action-content-btn {
+  font-size: 16px;
+  font-weight: bold;
+
+  background-color: #4e47ff;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  padding: 12px 36px;
+
+  cursor: pointer;
+
+}
+
+.action-content-btn:hover {
+  background-color: #3b37b1;
+}
+  
+
+.action-img {
+
+  border-radius: 48px;
+}
+
+
+/*main-preview part*/
+.preview-part {
+  width: 1140px;
+  background-color: rgb(229, 231, 255);
+
+  margin: auto;
+  margin: 120px;
+
+  border-radius: 24px;
+}
+
+
+.preview-heading {
+  text-align: center;
+
+  padding-top: 50px;
+
+}
+
+.preview-title {
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+
+
+}
+
+
+.preview-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  padding: 50px;
+
+}
+
+.preview-content-1-title {
+
+  font-size: 80px;
+  font-weight: bold;
+
+  color: #4E47FF;
+
+}
+
+.preview-content-1-description {
+  font-size: 20px;
+  font-weight: 400;
+
+  text-align: center;
+
+  
+}
+
+.preview-content-2-title {
+  font-size: 80px;
+  font-weight: bold;
+
+  color: #4E47FF;
+}
+
+.preview-content-2-description {
+  font-size: 20px;
+  font-weight: 400;
+
+  text-align: center;
+
+  
+}
+
+.preview-content-3-title {
+  font-size: 80px;
+  font-weight: bold;
+
+  color: #4E47FF;
+}
+
+.preview-content-3-description {
+  font-size: 20px;
+  font-weight: 400;
+
+  text-align: center;
+
+  
 }
