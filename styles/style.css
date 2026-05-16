@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+body {
+  background-color: #F5F8FF;
+}
+
+
 /*primary font*/
 
 .primary-font {
@@ -16,6 +27,9 @@
 }
 
 
+
+
+/* ---------------------------- section divider-------------------------------- */
 
 
 .shared-img {
@@ -63,6 +77,12 @@
 .nav-btn:hover {
   background-color: #3b37b1;
 }
+
+
+
+/* ---------------------------- section divider-------------------------------- */
+
+
 
 /*hero section*/
 .hero {
@@ -171,6 +191,9 @@
 }
 
 
+
+/* ---------------------------- section divider-------------------------------- */
+
 /*main-preview part*/
 .preview-part {
   width: 1140px;
@@ -256,4 +279,268 @@
   text-align: center;
 
   
+}
+
+
+
+/* ---------------------------- section divider-------------------------------- */
+
+/* main-review part */
+
+/* review-part-heading */
+.border {
+  border: 1px solid black;
+}
+
+.review-heading {
+  text-align: center;
+
+  /* margin: 50px; */
+}
+
+.review-title {
+  font-size: 42px;
+  font-weight: bold;
+
+  color: #252432;
+}
+
+/*review-part-card*/
+
+.review-cards {
+  display: flex;
+  
+
+  padding: 50px;
+  gap: 20px;
+}
+
+
+
+.review-card-1 {
+  /* border: 1px solid black; */
+
+  width: 367px;
+  height: 250px;
+}
+
+.review-card-2 {
+  /* border: 1px solid black; */
+
+  width: 367px;
+  height: 250px;
+}
+
+.review-card-3 {
+  /* border: 1px solid black; */
+
+  width: 367px;
+  height: 250px;
+}
+
+
+/* review-card-1*/
+.review-card-1{
+  background-color: #ffffff;
+
+  border-radius: 14px;
+}
+.review-card-star{
+  margin: 24px;
+}
+
+.review-card-person {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+}
+.review-card-content {
+  margin: 24px;
+
+}
+.review-card-person {
+  margin: 24px;
+}
+.review-card-person-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+  border-radius: 50%;
+}
+.review-card-content-title {
+  font-size: 24px;
+  font-weight: semi-bold;
+  color: #1E1E1E;
+}
+.review-card-content-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1E1E1E;
+
+  margin-top: 8px;
+}
+.review-card-person-details {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+
+/* review-card-2*/
+.review-card-2{
+  background-color: #ffffff;
+
+  border-radius: 14px;
+}
+
+/* review-card-3*/
+.review-card-3{
+  background-color: #ffffff;
+
+  border-radius: 14px;
+}
+
+
+
+/* ---------------------------- section divider-------------------------------- */
+
+/* main- botttom preview part */
+
+.bottom-preview {
+  background-color: #ffffff;
+
+  border-radius: 14px;
+}
+
+
+
+
+
+/*bottom preview heading*/
+.bottom-preview-contents {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px;
+  gap: 20px;
+}
+.bottom-preview-contents-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+}
+.bottom-preview-contents-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+.bottom-preview-contents-btn {
+  font-size: 16px;
+  font-weight: bold;
+
+  color : white;
+  background-color: #4e47ff;
+
+  border: none;
+  border-radius: 10px;
+
+  padding: 12px 36px;
+
+  cursor: pointer;
+}
+.bottom-preview-contents-btn:hover {
+  background-color: #3b37b1;
+}
+
+
+/* bottom preview img */
+.bottom-preview-contents-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+  
+
+  margin: 0 auto;
+  padding: 50px;
+}
+
+
+
+
+
+/* ---------------------------- section divider-------------------------------- */
+.contact-part-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 100px;
+
+}
+
+
+
+/* contact-part-heading */
+.contact-part-heading-title{
+  font-size: 97px;
+  font-weight: bold;
+  color: black;
+}
+
+
+
+
+
+
+
+/* contact-part-form */
+.form-group label {
+ font-size: 18px;
+  font-weight: 500;
+
+  color: black;
+
+  padding-bottom: 20px;
+}
+
+.form-group input {
+  padding : 16px 32px ;
+  width: 300px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background-color: #ffffff;
+}
+#message {
+  padding : 16px 32px ;
+  width: 300px;
+  height: 150px;
+
+  border-radius: 10px;
+}
+.form-btn {
+  font-size: 16px;
+  font-weight: bold;
+
+  margin-top: 20px;
+  width: 300px;
+  padding: 16px 32px;
+
+  background-color: #4e47ff;
+  color: white;
+
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+.form-btn:hover {
+  background-color: #3b37b1;
 }
