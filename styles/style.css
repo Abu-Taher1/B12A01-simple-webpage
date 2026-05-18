@@ -38,7 +38,7 @@ body {
 
 /*navigation*/
 .nav {
-  border: 1px solid rgb(255, 0, 0);
+  /* border: 1px solid rgb(255, 0, 0); */
   display: flex;
 
   width: 1140px;
@@ -86,7 +86,7 @@ body {
 
 /*hero section*/
 .hero {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
   height: 550px;
 }
@@ -500,12 +500,14 @@ body {
 
 /* contact-part-form */
 .form-group label {
- font-size: 18px;
+  font-size: 18px;
   font-weight: 500;
 
   color: black;
 
-  padding-bottom: 20px;
+  
+
+  
 }
 
 .form-group input {
@@ -517,13 +519,19 @@ body {
   border-radius: 10px;
 
   background-color: #ffffff;
+
+  margin-bottom: 18px;
 }
-#message {
+.form-group textarea {
   padding : 16px 32px ;
   width: 300px;
   height: 150px;
 
+  border: none;
+
   border-radius: 10px;
+
+  background-color: #ffffff;
 }
 .form-btn {
   font-size: 16px;
@@ -543,4 +551,41 @@ body {
 }
 .form-btn:hover {
   background-color: #3b37b1;
+}
+
+
+
+
+/* ---------------------------- section divider-------------------------------- */
+
+/* footer */
+
+.footer {
+  background-color: white;
+  padding: 100px 0;
+  width: 100%;
+
+}
+.footer div {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo, .footer-description, .footer-list {
+  margin-bottom: 24px;
+  
+}
+.footer-logo {
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+}
+.footer-list ul {
+  display: flex;
+  gap: 48px;
+}
+.footer-list li{
+  list-style: none;
 }
